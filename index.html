@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Test Technique</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav-desktop">
+                <img class="header-logo" src="https://www.guidedupari.com/wp-content/uploads/2017/10/psl.jpg" alt="">
+                <div class="smart-popin" id="popin1">
+                    <div class="sp-table">
+                        <div class="sp-cell">
+                            <div class="sp-body">
+                                <p>Nunc ac tortor scelerisque ex scelerisque dictum eget vitae mi. Etiam a nulla tortor. Duis
+                                    non elit vitae arcu vehicula finibus. Donec bibendum vel nisi sit amet ullamcorper.</p>
+
+                                <a href="#" class="sp-close">×</a>
+                            </div>
+                            <a href="#" class="sp-back"></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#popin1">
+                    <button class="header-button">mon compte</button>
+                </a>
+            </nav>
+
+            <nav class="nav-mobile">
+                <img class="icons-menu-blue" src="icons-menu-blue.png" alt="">
+                <img class="header-logo" src="https://www.guidedupari.com/wp-content/uploads/2017/10/psl.jpg" alt="">
+                <a href="#popin1">
+                    <img class="icons-utilisateur" src="icons-utilisateur.png" alt="">
+                </a>
+            </nav>
+
+            <img class="banner" src="Test-Onibi_banner.png" alt="">
+            
+        </header>
+
+        <div class="block">
+            <div class="block-video">
+                <div class="block-video-text">
+                    <p>jusqu'à
+                        <span class="span-plus">
+                            <br>+50%</span>
+                        <br>
+                        <span class="span-gains">de gains supplémentaires</span>
+                    </p>
+                </div>
+                <div class="block-video-video">
+                    <iframe src="https://www.youtube.com/embed/rAMAZ6tFH8U?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="block-offre">
+                <h1 class="block-offre-title">2 façons de profiter de l'offre
+                    <span class="span-offre-title">combi boosté</span> :</h1>
+
+                <div class="systeme_onglets">
+                    <div class="onglets">
+                        <span class="onglet_0 onglet" id="onglet_votre" onclick="javascript:change_onglet('votre');">votre grille sur mesure</span>
+                        <span class="onglet_0 onglet" id="onglet_notre" onclick="javascript:change_onglet('notre');">notre grille du jour</span>
+                    </div>
+                    <div class="contenu_onglets">
+                        <div class="contenu_onglet" id="contenu_onglet_votre">
+                            <p class="onglet-p">Curabitur suscipit orci felis, eget placerat tortor tempor et. Aliquam bibendum lectus ac venenatis
+                                efficitur. Phasellus eleifend orci at massa sollicitudin consectetur nec a sapien. Cras sodales
+                                vel turpis tristique efficitur. Nullam blandit dolor eget lectus accumsan, tristique laoreet
+                                nisl pulvinar. Aliquam vel tellus non elit ultricies laoreet vitae at nisl. Vestibulum ultrices
+                                a nibh id efficitur.</p>
+
+                            <button class="button-parie">je parie ! &#9658;</button>
+
+                            <h3 class="onglet-title">bonus par notre de parie combi boosté sélectionnés :</h3>
+
+                            <p class="onglet-p">Ut luctus mauris nisl, eu lobortis ligula laoreet vitae. Aenean viverra tristique odio, vitae
+                                rutrum est faucibus nec. Aenean sapien nulla, ultricies et tincidunt et, facilisis at risus.
+                                Cras luctus magna eu justo suscipit tempor eget sit amet mauris. Mauris a sem hendrerit,
+                                iaculis leo ut, pretium augue. Nunc laoreet, dolor vitae finibus rhoncus, odio nisi semper
+                                erat, quis posuere nibh felis in leo. Curabitur augue urna, viverra scelerisque libero non,
+                                semper sodales mi. Donec ultricies, eros et ornare semper, tellus elit pellentesque odio,
+                                scelerisque commodo mauris sapien sed nisi. Maecenas convallis hendrerit imperdiet.</p>
+
+                            <h3 class="onglet-title">composé votre combi boosté sur mesure :</h3>
+
+                            <p class="onglet-p">Ut luctus mauris nisl, eu lobortis ligula laoreet vitae. Aenean viverra tristique odio, vitae
+                                rutrum est faucibus nec. Aenean sapien nulla, ultricies et tincidunt et, facilisis at risus.
+                                Cras luctus magna eu justo suscipit tempor eget sit amet mauris. Mauris a sem hendrerit,
+                                iaculis leo ut, pretium augue. Nunc laoreet, dolor vitae finibus rhoncus, odio nisi semper
+                                erat, quis posuere nibh felis in leo. Curabitur augue urna, viverra scelerisque libero non,
+                                semper sodales mi. Donec ultricies, eros et ornare semper, tellus elit pellentesque odio,
+                                scelerisque commodo mauris sapien sed nisi. Maecenas convallis hendrerit imperdiet.</p>
+
+                            <button class="button-parie">je parie ! &#9658;</button>
+
+                        </div>
+
+                        <div class="contenu_onglet" id="contenu_onglet_notre">
+                            <p class="onglet-p">Proin varius aliquet leo vel pulvinar. Donec venenatis bibendum est vel viverra. Cras laoreet
+                                tincidunt eleifend. Fusce diam velit, blandit quis sapien eu, viverra varius felis. Quisque
+                                lacinia elit in nulla luctus, in malesuada quam suscipit. Vivamus dignissim orci sed cursus
+                                suscipit. Aenean gravida orci ac nulla ultrices scelerisque quis sed nibh. Maecenas eget
+                                odio et sapien iaculis volutpat. Nam sodales pharetra vestibulum. Nulla id commodo ante,
+                                a condimentum est. Proin et volutpat lacus.</p>
+
+                            <button class="button-parie">je parie ! &#9658;</button>
+
+                            <p class="onglet-p">Ut luctus mauris nisl, eu lobortis ligula laoreet vitae. Aenean viverra tristique odio, vitae
+                                rutrum est faucibus nec. Aenean sapien nulla, ultricies et tincidunt et, facilisis at risus.
+                                Cras luctus magna eu justo suscipit tempor eget sit amet mauris. Mauris a sem hendrerit,
+                                iaculis leo ut, pretium augue. Nunc laoreet, dolor vitae finibus rhoncus, odio nisi semper
+                                erat, quis posuere nibh felis in leo. Curabitur augue urna, viverra scelerisque libero non,
+                                semper sodales mi. Donec ultricies, eros et ornare semper, tellus elit pellentesque odio,
+                                scelerisque commodo mauris sapien sed nisi. Maecenas convallis hendrerit imperdiet.</p>
+
+                            <p class="onglet-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam pharetra viverra. Orci
+                                varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent
+                                ultricies ipsum magna. Quisque rutrum nisl at nunc commodo vestibulum. Donec elementum nunc
+                                at tellus porta molestie. Aliquam ultricies dui at lectus ultrices maximus quis eu quam.
+                                Aliquam dapibus dolor eget nibh ultrices, eget gravida eros molestie. Maecenas ac lectus
+                                eget orci pulvinar accumsan rhoncus in arcu. Aliquam auctor augue tempor dui imperdiet, sit
+                                amet laoreet eros mollis. Nulla maximus, turpis et ultricies ornare, odio diam vestibulum
+                                velit, a viverra arcu nisl sed lorem. Praesent id mi purus. Fusce imperdiet faucibus orci
+                                a interdum. Fusce vel ligula fringilla, rutrum libero eu, aliquet nunc. Cras eget sem leo.
+                                Suspendisse sed arcu et diam convallis laoreet non sed ante. Maecenas posuere iaculis sapien
+                                ultricies mattis.</p>
+
+                            <button class="button-parie">je parie ! &#9658;</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block-mobile">
+                    <h3 class="onglet">votre grille sur mesure
+                        <span>
+                            <img class="span-block-mobile" src="icons-fleche.png" alt="">
+                        </span>
+                    </h3>
+                    <div class="contenu_onglet">
+                        <p class="onglet-p">Curabitur suscipit orci felis, eget placerat tortor tempor et. Aliquam bibendum lectus ac venenatis
+                            efficitur. Phasellus eleifend orci at massa sollicitudin consectetur nec a sapien. Cras sodales
+                            vel turpis tristique efficitur. Nullam blandit dolor eget lectus accumsan, tristique laoreet
+                            nisl pulvinar. Aliquam vel tellus non elit ultricies laoreet vitae at nisl. Vestibulum ultrices
+                            a nibh id efficitur.</p>
+
+                        <button class="button-parie">je parie ! &#9658;</button>
+
+                        <h3 class="onglet-title">bonus par notre de parie combi boosté sélectionnés :</h3>
+
+                        <p class="onglet-p">Ut luctus mauris nisl, eu lobortis ligula laoreet vitae. Aenean viverra tristique odio, vitae rutrum
+                            est faucibus nec. Aenean sapien nulla, ultricies et tincidunt et, facilisis at risus. Cras luctus
+                            magna eu justo suscipit tempor eget sit amet mauris. Mauris a sem hendrerit, iaculis leo ut,
+                            pretium augue. Nunc laoreet, dolor vitae finibus rhoncus, odio nisi semper erat, quis posuere
+                            nibh felis in leo. Curabitur augue urna, viverra scelerisque libero non, semper sodales mi. Donec
+                            ultricies, eros et ornare semper, tellus elit pellentesque odio, scelerisque commodo mauris sapien
+                            sed nisi. Maecenas convallis hendrerit imperdiet.</p>
+
+                        <h3 class="onglet-title">composé votre combi boosté sur mesure :</h3>
+
+                        <p class="onglet-p">Ut luctus mauris nisl, eu lobortis ligula laoreet vitae. Aenean viverra tristique odio, vitae rutrum
+                            est faucibus nec. Aenean sapien nulla, ultricies et tincidunt et, facilisis at risus. Cras luctus
+                            magna eu justo suscipit tempor eget sit amet mauris. Mauris a sem hendrerit, iaculis leo ut,
+                            pretium augue. Nunc laoreet, dolor vitae finibus rhoncus, odio nisi semper erat, quis posuere
+                            nibh felis in leo. Curabitur augue urna, viverra scelerisque libero non, semper sodales mi. Donec
+                            ultricies, eros et ornare semper, tellus elit pellentesque odio, scelerisque commodo mauris sapien
+                            sed nisi. Maecenas convallis hendrerit imperdiet.</p>
+
+                        <button class="button-parie">je parie ! &#9658;</button>
+
+                        <button class="button-condition">Voir conditions et réglement</button>
+                    </div>
+                </div>
+
+                <div class="block-mobile">
+                    <h3 class="onglet">notre grille du jour
+                        <span>
+                            <img class="span-block-mobile" src="icons-fleche.png" alt="">
+                        </span>
+                    </h3>
+                    <div class="contenu_onglet">
+                        <p class="onglet-p">Proin varius aliquet leo vel pulvinar. Donec venenatis bibendum est vel viverra. Cras laoreet tincidunt
+                            eleifend. Fusce diam velit, blandit quis sapien eu, viverra varius felis. Quisque lacinia elit
+                            in nulla luctus, in malesuada quam suscipit. Vivamus dignissim orci sed cursus suscipit. Aenean
+                            gravida orci ac nulla ultrices scelerisque quis sed nibh. Maecenas eget odio et sapien iaculis
+                            volutpat. Nam sodales pharetra vestibulum. Nulla id commodo ante, a condimentum est. Proin et
+                            volutpat lacus.</p>
+
+                        <button class="button-parie">je parie ! &#9658;</button>
+
+                        <p class="onglet-p">Ut luctus mauris nisl, eu lobortis ligula laoreet vitae. Aenean viverra tristique odio, vitae rutrum
+                            est faucibus nec. Aenean sapien nulla, ultricies et tincidunt et, facilisis at risus. Cras luctus
+                            magna eu justo suscipit tempor eget sit amet mauris. Mauris a sem hendrerit, iaculis leo ut,
+                            pretium augue. Nunc laoreet, dolor vitae finibus rhoncus, odio nisi semper erat, quis posuere
+                            nibh felis in leo. Curabitur augue urna, viverra scelerisque libero non, semper sodales mi. Donec
+                            ultricies, eros et ornare semper, tellus elit pellentesque odio, scelerisque commodo mauris sapien
+                            sed nisi. Maecenas convallis hendrerit imperdiet.</p>
+
+                        <p class="onglet-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam pharetra viverra. Orci
+                            varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent ultricies
+                            ipsum magna. Quisque rutrum nisl at nunc commodo vestibulum. Donec elementum nunc at tellus porta
+                            molestie. Aliquam ultricies dui at lectus ultrices maximus quis eu quam. Aliquam dapibus dolor
+                            eget nibh ultrices, eget gravida eros molestie. Maecenas ac lectus eget orci pulvinar accumsan
+                            rhoncus in arcu. Aliquam auctor augue tempor dui imperdiet, sit amet laoreet eros mollis. Nulla
+                            maximus, turpis et ultricies ornare, odio diam vestibulum velit, a viverra arcu nisl sed lorem.
+                            Praesent id mi purus. Fusce imperdiet faucibus orci a interdum. Fusce vel ligula fringilla, rutrum
+                            libero eu, aliquet nunc. Cras eget sem leo. Suspendisse sed arcu et diam convallis laoreet non
+                            sed ante. Maecenas posuere iaculis sapien ultricies mattis.</p>
+
+                        <button class="button-parie">je parie ! &#9658;</button>
+
+                        <button class="button-condition">Voir conditions et réglement</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-desktop">
+            <h4 class="footer-title">Promotions et bonus parie sportifs</h4>
+            <p class="footer-p">Sed iaculis a ex in laoreet. Aenean cursus feugiat est. Praesent ornare tempor enim et lobortis. Morbi facilisis
+                odio nibh, id efficitur tellus elementum eu. Nullam molestie, tortor vitae mattis gravida, interdum urna,
+                in mollis lorem ipsum id neque. Sed bibendum
+                <a href="">paris sportif</a>,
+                <a href="">pronostic foot</a> amet sapien
+                <a href="">paris rugby</a>.</p>
+        </footer>
+
+        <footer class="footer-mobile">
+            <div class="footer-risque">
+                <p>Jouer comporte des risques : endettement, isolement, dépendance.
+                    <br> Pour être aidé, appelez le 09-74-75-13-13 (appel non surtaxé)</p>
+            </div>
+            <div class="footer-blocks">
+                <div class="footer-block">
+                    <img class="footer-mobile-logo" src="https://www.casinoonlinefrancais.fr/images/casinos-agrees-arjel2626j.png" alt="">
+                    <p class="uppercase">n° arjel : 0013-PS-2010-06-05</p>
+                </div>
+                <div class="footer-block">
+                    <img class="footer-mobile-logo2" src="http://voyage-viticole.com/img/cms/18ans.png" alt="">
+                    <p>
+                        <span class="uppercase">interdiction volontaire de jeux</span>
+                        <br>Fusce faucibus enim et tortor semper pretium. Quisque sed eros mauris. Nullam sagittis ipsum scelerisque,
+                        semper tellus feugiat, commodo eros.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <footer class="footer-mobile-bottom">
+            <p>Sélection :</p>
+            <img class="footer-mobile-bottom-logo" src="icons-menu-white.png" alt="">
+            <a href="#popin1">
+                <p>Connection</p>
+            </a>
+        </footer>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
